@@ -58,24 +58,6 @@ Custom implementations include:
 - `custom_read_next_line` - reads a line of input from a file descriptor (used for reading keyboard input from stdin)
 - `custom_strlen`, `custom_strncmp`, `custom_strchr` - string utilities
 
-### Project structure
-```
-|
-├── wordle.c                     # main game loop
-├── includes/
-│   └── wordle.h                 # shared structs, constants, prototypes
-├── utils/
-│   ├── wordle_setup_utils.c     # difficulty selection, word picking, guess table setup
-│   ├── wordle_verif_utils.c     # guess/word validation
-│   ├── wordle_game_utils.c      # game loop, input handling, replay prompt
-│   └── wordle_display_utils.c   # title screen and colored guess grid rendering
-├── customlib/                   # custom libc-style implementations, built as customlib.a
-├── dictionaries/
-│   ├── words.txt                # possible answer words
-│   └── valid_guesses.txt        # words accepted as valid guesses
-├── Makefile
-└── README.md
-```
 
 ### Word lists
 - `words.txt` holds the pool of possible secret words (2316 words).
