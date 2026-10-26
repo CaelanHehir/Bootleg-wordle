@@ -3,7 +3,7 @@
 
 
 ## Description
-Bootleg Wordle is a simple wordle clone, but more importantly, it is the first personal project I ever worked on! I wrote it in C using as few external functions as possible, which meant using custom implementations of classics such as **printf**, **atoi**, and a few more. Reading user input is also done using a custom function, aptly named '**custom_read_next_line**'.
+Bootleg Wordle is a simple wordle clone, but more importantly, it is the first personal project in C that I ever worked on! I wrote it using as few external functions as possible, which meant using custom implementations of classics such as **printf**, **atoi**, and a few more. Reading user input is also done using a custom function, aptly named '**custom_read_next_line**'.
 
 Working on this was a lot of fun and helped me practice writing slightly more complex programs with multiple moving parts. It laid the groundwork for future, larger-scale projects.
 
